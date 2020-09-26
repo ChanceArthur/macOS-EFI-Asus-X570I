@@ -20,7 +20,7 @@
 	<string>????</string>
 	<key>CFBundleVersion</key>
 	<string>1.0</string>
-	<key>IOKitPersonalities</key>
+	<key>IOKitPersonalities_x86_64</key>
 	<dict>
 		<key>iMacPro1,1-XHC0-60</key>
 		<dict>
