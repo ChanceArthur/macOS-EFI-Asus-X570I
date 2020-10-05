@@ -356,6 +356,12 @@
 			<data></data>
 			<key>Cpuid1Mask</key>
 			<data></data>
+			<key>DummyPowerManagement</key>
+			<true/>
+			<key>MaxKernel</key>
+			<string></string>
+			<key>MinKernel</key>
+			<string></string>
 		</dict>
 		<key>Patch</key>
 		<array>
@@ -1450,13 +1456,15 @@
 			<true/>
 			<key>DisableRtcChecksum</key>
 			<false/>
-			<key>DummyPowerManagement</key>
-			<true/>
+			<key>ExtendBTFeatureFlags</key>
+			<false/>
 			<key>ExternalDiskIcons</key>
 			<false/>
 			<key>IncreasePciBarSize</key>
 			<false/>
 			<key>LapicKernelPanic</key>
+			<false/>
+			<key>LegacyCommpage</key>
 			<false/>
 			<key>PanicNoKextDump</key>
 			<true/>
@@ -1665,10 +1673,14 @@
 			<false/>
 			<key>MLB</key>
 			<string>M0000000000000001</string>
+			<key>ProcessorType</key>
+			<integer>0</integer>
 			<key>ROM</key>
 			<data>ESIzRFVm</data>
 			<key>SpoofVendor</key>
 			<true/>
+			<key>SystemMemoryStatus</key>
+			<string>Auto</string>
 			<key>SystemProductName</key>
 			<string>iMacPro1,1</string>
 			<key>SystemSerialNumber</key>
@@ -1832,16 +1844,6 @@
 		</dict>
 		<key>ReservedMemory</key>
 		<array>
-			<dict>
-				<key>Address</key>
-				<integer>268435456</integer>
-				<key>Comment</key>
-				<string>HD3000: IGPU memory corruption errata</string>
-				<key>Enabled</key>
-				<false/>
-				<key>Size</key>
-				<integer>268435456</integer>
-			</dict>
 		</array>
 	</dict>
 </dict>
